@@ -2,7 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import ReactDashboard from "../../Assets/Projects/temp-react-route.PNG";
+import Reactrouter from "../../Assets/Projects/router.PNG";
 import ReactTemp from "../../Assets/Projects/React-Temp.PNG";
+import Template2 from "../../Assets/Projects/template2.PNG";
 import HackerNews from "../../Assets/Projects/Hacker-News.PNG";
 import ReactQuiz from "../../Assets/Projects/React-Quiz.PNG";
 import generator from "../../Assets/Projects/generator.png";
@@ -20,6 +23,36 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ReactDashboard}
+              isBlog={false}
+              title="React-Dashboard"
+              description="Template use react router and scss and components"
+              ghLink="https://github.com/islamsoliman90/temp-react-route.git"
+              demoLink="https://temp-react-route.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Reactrouter}
+              isBlog={false}
+              title="React-Router"
+              description="practise on react-router-dom libarary"
+              ghLink="https://github.com/islamsoliman90/React-Router"
+              demoLink="https://loquacious-dieffenbachia-dfe8d3.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Template2}
+              isBlog={false}
+              title="Template by bootstrap"
+              description="Template2 i created by bootstrap to practice"
+              ghLink="https://github.com/islamsoliman90/Template2.git"
+              demoLink="https://template2-pg156zkxx-islamsoliman90.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ReactTemp}

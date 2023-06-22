@@ -3,16 +3,15 @@ import { Col, Container, Row } from "react-bootstrap";
 import { AiFillFacebook, AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 
-function Home2 ()
-{
+function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={ 8 } className="home-about-description">
-            <h1 style={ { fontSize: "2.6em" } }>
+          <Col md={8} className="home-about-description">
+            <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
@@ -28,7 +27,7 @@ function Home2 ()
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{ " " }
+                also in areas related to{" "}
                 <b className="purple">
                   Deep Learning and Natural Launguage Processing.
                 </b>
@@ -39,7 +38,7 @@ function Home2 ()
               with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
-                  { " " }
+                  {" "}
                   Modern Javascript Library and Frameworks
                 </b>
               </i>
@@ -49,14 +48,14 @@ function Home2 ()
               </i>
             </p>
           </Col>
-          <Col md={ 4 } className="myAvtar">
+          <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={ myImg } className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
         <Row>
-          <Col md={ 12 } className="home-about-social">
+          <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me

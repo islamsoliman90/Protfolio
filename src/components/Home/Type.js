@@ -1,11 +1,10 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-function Type ()
-{
+function Type() {
   return (
     <Typewriter
-      options={ {
+      options={{
         strings: [
           "Developer",
           "Deep Learning Engineer",
@@ -15,7 +14,7 @@ function Type ()
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
-      } }
+      }}
     />
   );
 }
