@@ -10,8 +10,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Islam Ahmed </span>
             from <span className="purple"> giza, Egypt.</span>
-            <br />I am a junior Front End Developer , i had graduate In
-            Information Technology.
+            <br />I am It Specialist and I have 8 years Exp. Now I am junior
+            MERN Stack Developer , i had graduate In Information Technology.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
