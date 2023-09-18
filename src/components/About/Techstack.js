@@ -9,12 +9,18 @@ import {
   DiNodejsSmall,
 } from "react-icons/di";
 import { SiCss3, SiBootstrap, SiPug, SiJest, SiExpress } from "react-icons/si";
-
+import { BsHddNetworkFill, BsWindows } from "react-icons/bs";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejsSmall />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiSass />
@@ -38,10 +44,10 @@ function Techstack() {
         <SiJest />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejsSmall />
+        <BsWindows />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiExpress />
+        <BsHddNetworkFill />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
